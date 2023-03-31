@@ -1,0 +1,33 @@
+.gin-bottle {
+    animation: loader 8.25s infinite;
+    width: 100vw;
+    // height: 50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    // transition:.5s ease-in-out;
+}
+
+
+
+.gin-bottle img {
+    height: 60vh;
+    // rotate: 30deg;
+}
+
+.gin-bottle img:hover {
+    animation: loader 1.25s infinite;
+}
+
+
+@keyframes loader {
+    0% {
+      rotate: 0deg;
+    }
+    25% {
+      rotate: 60deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+  }

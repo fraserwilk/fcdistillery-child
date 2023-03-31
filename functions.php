@@ -1,6 +1,6 @@
 <?php
 /**
- * Understrap Child Theme functions and definitions
+ * FC Distillery Child Theme functions and definitions
  *
  * @package UnderstrapChild
  */
