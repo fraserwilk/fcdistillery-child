@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -110,6 +111,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: "Merriweather", serif;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -12275,12 +12277,19 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border: 1px solid #e9ecef;
 }
 
+.navbar-expand-md .navbar-nav .nav-link {
+  font-family: "Merriweather", serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #6AC3D5;
+}
+
 .gin-bottle {
-  animation: loader 8.25s infinite;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .gin-bottle img {
@@ -12288,19 +12297,62 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 
 .gin-bottle img:hover {
-  animation: loader 1.25s infinite;
+  animation: shake 1.5s;
 }
 
 @keyframes loader {
   0% {
     rotate: 0deg;
   }
-  25% {
+  50% {
     rotate: 60deg;
   }
   100% {
     rotate: 0deg;
   }
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+body, html, canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: transparent;
 }
 
 /*# sourceMappingURL=child-theme.css.map */
