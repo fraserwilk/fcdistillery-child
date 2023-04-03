@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
 	<canvas id="bg"></canvas>
         <div class="entry-content">
             <div class="gin-bottle">
-                <img src="http://localhost/fcgin/wp-content/uploads/2023/03/fc-gin-bottle.png" />
+                <img src="https://www.fallscreekgincompany.com.au/wp-content/uploads/2023/04/fc-gin-bottle.png" />
             </div>
             <?php
             the_content();
@@ -23,7 +23,6 @@ defined( 'ABSPATH' ) || exit;
             ?>
 
         </div><!-- .entry-content -->
-        <script src="http://localhost/fcgin/wp-content/themes/fcdistillery-child/src/js/custom-javascript.js"></script>
     
 	<footer class="entry-footer">
 

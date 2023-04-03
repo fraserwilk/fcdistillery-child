@@ -14,9 +14,7 @@ defined( 'ABSPATH' ) || exit;
 	<!--  removed the page Title -->
 
 	<div class="entry-content">
-		<div class="gin-bottle img-fluid">
-			<img src="http://localhost/fcgin/wp-content/uploads/2023/03/fc-gin-bottle.png" />
-		</div>
+
 		<?php
 		the_content();
 		understrap_link_pages();
