@@ -93,5 +93,3 @@ function understrap_child_customize_controls_js() {
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
 
-// add snowflake js 
-wp_enqueue_script( 'custom-frontpage-js', get_stylesheet_directory_uri() . '/js/custom-frontpage.js', array(), null, true );
