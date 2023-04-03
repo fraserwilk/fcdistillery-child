@@ -33,7 +33,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 			aria-expanded="false"
 			aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>"
 		>
-			<span class="navbar-toggler-icon"></span>
+			<!-- <span class="navbar-toggler-icon"></span> -->
+			<!-- using an svg as hamburger -->
+			<svg viewBox="0 0 100 80" width="40" height="40" fill="#6AC3D5">
+				<rect width="100" height="12" rx="4"></rect>
+				<rect y="30" width="100" height="12" rx="4"></rect>
+				<rect y="60" width="100" height="12" rx="4"></rect>
+			</svg>
 		</button>
 
 		<!-- The WordPress Menu goes here -->
@@ -43,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				'theme_location'  => 'primary',
 				'container_class' => 'collapse navbar-collapse',
 				'container_id'    => 'navbarNavDropdown',
-				'menu_class'      => 'navbar-nav ms-auto pe-5',
+				'menu_class'      => 'navbar-nav ms-auto text-end pe-5',
 				'fallback_cb'     => '',
 				'menu_id'         => 'main-menu',
 				'depth'           => 2,
