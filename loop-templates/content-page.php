@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) || exit;
 	<!--  removed the page Title -->
 
 	<div class="entry-content">
-		
+
 		<?php
 		the_content();
 		understrap_link_pages();

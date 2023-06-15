@@ -19,9 +19,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 	</h2>
 
 
-	<div class="<?php echo esc_attr( $container ); ?>">
+	<div class="<?php echo esc_attr( $container ); ?> col-md-10">
 
-		<!-- Your site branding in the menu -->
+		<!-- Site branding in the menu -->
 		<?php get_template_part( 'global-templates/navbar-branding' ); ?>
 
 		<button
@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				'theme_location'  => 'primary',
 				'container_class' => 'collapse navbar-collapse',
 				'container_id'    => 'navbarNavDropdown',
-				'menu_class'      => 'navbar-nav ms-auto text-end pe-5',
+				'menu_class'      => 'navbar-nav ms-auto text-end pe-5 link-primary',
 				'fallback_cb'     => '',
 				'menu_id'         => 'main-menu',
 				'depth'           => 2,
