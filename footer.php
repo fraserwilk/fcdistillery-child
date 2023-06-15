@@ -27,7 +27,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
-					&copy; <?php echo date("Y"); ?> Falls Creek Distillery Pty Ltd  • All Rights Reserved
+					© <?php echo date("Y"); ?> Falls Creek Distillery Pty Ltd • <a href="<?php echo esc_url(get_site_url(null, '/terms')); ?>" class="footer">Terms & Conditions</a>
+					
 
 					</div><!-- .site-info -->
 

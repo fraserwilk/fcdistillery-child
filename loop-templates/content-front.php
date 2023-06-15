@@ -14,9 +14,11 @@ defined( 'ABSPATH' ) || exit;
 	<!--  removed the page Title -->
 	<canvas id="bg"></canvas>
         <div class="entry-content">
+        <?php if ( is_front_page() ) : ?>
             <div class="gin-bottle">
                 <img src="https://www.fallscreekgincompany.com.au/wp-content/uploads/2023/04/fc-gin-bottle.png" />
             </div>
+        <?php endif; ?>
             <?php
             the_content();
             understrap_link_pages();
