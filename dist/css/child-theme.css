@@ -11924,6 +11924,15 @@ figure.woocommerce-product-gallery__wrapper {
   color: #6AC3D5;
 }
 
+.woocommerce .btn, .woocommerce .wpcf7 input[type=submit], .wpcf7 .woocommerce input[type=submit], .woocommerce .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .woocommerce a.button, .woocommerce .woocommerce-info a.button, .woocommerce-info .woocommerce a.button {
+  background-color: #6AC3D5;
+  color: white;
+}
+
+.woocommerce .btn:hover, .woocommerce .wpcf7 input[type=submit]:hover, .wpcf7 .woocommerce input[type=submit]:hover, .woocommerce .woocommerce-notices-wrapper .woocommerce-message a.button:hover, .woocommerce-notices-wrapper .woocommerce-message .woocommerce a.button:hover, .woocommerce .woocommerce-info a.button:hover, .woocommerce-info .woocommerce a.button:hover {
+  filter: brightness(85%);
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #0d6efd;
