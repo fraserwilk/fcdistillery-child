@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full Width Page - FC Distillery
+ * Template Name: Full Width Page - Modal
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
