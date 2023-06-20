@@ -12367,18 +12367,17 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 .navbar-expand-md .navbar-nav .nav-link {
   font-family: "Merriweather", serif;
-  font-size: 2em;
+  font-size: 1.1em;
   font-weight: 700;
   color: #6AC3D5;
 }
 
-.navbar-nav > li {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 #navbarNavDropdown .nav-link:hover {
   color: #FF6865;
+}
+
+a {
+  color: #000;
 }
 
 .gin-bottle {
