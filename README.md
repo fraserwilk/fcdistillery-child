@@ -1,3 +1,3 @@
 # fcdistillery-child
 
-WordPress theme for Falls Creek Distiullery based on Understrap
+WordPress theme for Falls Creek Distillery based on Understrap
