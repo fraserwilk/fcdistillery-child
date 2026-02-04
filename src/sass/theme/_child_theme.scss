@@ -37,3 +37,21 @@ filter: brightness(85%);
 	color: #6AC3D5;
 }
 
+.woocommerce ul.products li.product a img {
+    width: 300px;
+}
+.woocommerce-breadcrumb {
+	display:none;
+}
+h2	{
+	color: #02cdcf;
+}
+.woocommerce-loop-product__title {
+	color:#000;
+}
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger {
+	display:none;
+}
+.woocommerce-Tabs-panel > h2 {
+    display: none;
+}
