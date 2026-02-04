@@ -93,3 +93,14 @@ function understrap_child_customize_controls_js() {
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
 
+/**
+ * Proper ob_end_flush() for all levels
+ *
+ * This replaces the WordPress `wp_ob_end_flush_all()` function
+ * with a replacement that doesn't cause PHP notices.
+ * See: https://stackoverflow.com/questions/38693992/notice-ob-end-flush-failed-to-send-buffer-of-zlib-output-compression-1-in
+ */
+remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
+add_action( 'shutdown', function() {
+   while ( @ob_end_flush() );
+} );
